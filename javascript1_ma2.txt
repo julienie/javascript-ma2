@@ -1,0 +1,26 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+    function literals are the parts that add up to a function. There are four parts, the work 'function', the functions name (optional), the parameters of the function and the statements wrapped in the curly braces {}. 
+    
+2. What is the constructor?
+    A contructor is a function used to create a new object, invoked by 'new'.
+    
+3. What does the return statement do?
+    The return statement ends a function and returns a value - any code after the return statement will not be run. 
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+        
+        "inside my function" - the function is ended after the return statement. 
+
+5. Briefly describe scope in JavaScript.
+    Scope refers to the life and death of variables. @
+    Global variables are declared outside of functions and are accessible throughout your code. 
+    Local variables are only reachable within the functions in which they are declared. 
+    If a value is assigned to an undeclared variable (ie myVariable = 'something'; rather than var myVariable = 'something';) , it will automatically become a global variable.
+    
